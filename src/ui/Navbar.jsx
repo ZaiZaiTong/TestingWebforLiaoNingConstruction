@@ -93,7 +93,13 @@ export default function Navbar() {
           <img
             src="/logo.png"
             alt="Liao Ning Construction PTE LTD"
-            className="h-25 md:h-24 w-auto" // ✅ logo 大小在这里调：h-20 / md:h-24 等
+            className="
+              h-14            /* 📱 手机高度更小 */
+              md:h-20         /* 💻 平板与桌面保持原来的大小 */
+              lg:h-[95px]     /* 🖥️ 你的电脑原尺寸（约等于你之前的 h-24/h-25） */
+              w-auto
+              object-contain
+            "
           />
         </Link>
 

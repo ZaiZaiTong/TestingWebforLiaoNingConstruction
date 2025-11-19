@@ -42,23 +42,37 @@ export default function WhoWeAre() {
           {/* Window 1：Key Facts 散乱布局 + Core Value 字样 */}
           <div className="rounded-[24px] bg-white/85 backdrop-blur-sm border border-neutral-200/80 shadow-lg px-6 md:px-10 py-10 md:py-12">
             {/* 散乱分布的 Key Facts */}
-            <div className="relative h-[260px] md:h-[320px] mb-8">
+            {/* Wrapper：手机用 grid，桌面保留 absolute 散乱布局 */}
+            <div className="
+              relative
+              h-auto
+              grid grid-cols-2 gap-8
+              md:block md:h-[320px]
+              mb-8
+            ">
+
               {/* 300+ EMPLOYEES */}
-              <div className="absolute top-2 left-[5%] rotate-[-2deg]">
-                <p className="font-serif text-[32px] md:text-[46px] font-semibold text-neutral-900 tracking-tight">
+              <div className="
+                md:absolute
+                md:top-2 md:left-[5%]
+                rotate-[-2deg]
+              ">
+                <p className="font-serif text-[28px] md:text-[46px] font-semibold text-neutral-900 tracking-tight">
                   300+
                 </p>
-                <p className="text-[12px] md:text-[14px] font-semibold text-neutral-600 uppercase">
+                <p className="text-[11px] md:text-[14px] font-semibold text-neutral-600 uppercase leading-snug">
                   Employees
                 </p>
               </div>
 
-              {/* 300+ SKILLED WORKERS... */}
-              <div className="absolute top-[70px] left-[50%] rotate-[1deg] max-w-[230px]">
-                <p
-                  className="font-serif text-[32px] md:text-[46px] font-semibold"
-                  style={{ color: BRAND_RED }}
-                >
+              {/* 300+ SKILLED WORKERS */}
+              <div className="
+                md:absolute
+                md:top-[70px] md:left-[50%]
+                rotate-[1deg]
+                max-w-[200px] md:max-w-[230px]
+              ">
+                <p className="font-serif text-[28px] md:text-[46px] font-semibold" style={{ color: BRAND_RED }}>
                   300+
                 </p>
                 <p className="text-[11px] md:text-[13px] font-semibold text-neutral-700 uppercase leading-snug">
@@ -67,20 +81,29 @@ export default function WhoWeAre() {
               </div>
 
               {/* 20+ PROJECTS */}
-              <div className="absolute top-[20px] right-[8%] rotate-[2deg] max-w-[260px]">
-                <p className="font-serif text-[32px] md:text-[46px] font-semibold text-neutral-900">
+              <div className="
+                md:absolute
+                md:top-[20px] md:right-[8%]
+                rotate-[2deg]
+                max-w-[200px] md:max-w-[260px]
+              ">
+                <p className="font-serif text-[28px] md:text-[46px] font-semibold text-neutral-900">
                   20+
                 </p>
                 <p className="text-[11px] md:text-[13px] font-semibold text-neutral-600 uppercase leading-snug">
-                  Projects
-                  <br />
+                  Projects<br />
                   since establishment in 2003
                 </p>
               </div>
 
               {/* 29+ YEARS */}
-              <div className="absolute bottom-[30px] left-[8%] rotate-[1deg] max-w-[280px]">
-                <p className="font-serif text-[26px] md:text-[38px] font-semibold text-neutral-900">
+              <div className="
+                md:absolute
+                md:bottom-[30px] md:left-[8%]
+                rotate-[1deg]
+                max-w-[200px] md:max-w-[280px]
+              ">
+                <p className="font-serif text-[24px] md:text-[38px] font-semibold text-neutral-900">
                   29+ YEARS
                 </p>
                 <p className="text-[11px] md:text-[13px] font-semibold text-neutral-600 uppercase leading-snug">
@@ -89,15 +112,20 @@ export default function WhoWeAre() {
               </div>
 
               {/* 10+ YEARS */}
-              <div className="absolute bottom-[10px] right-[18%] rotate-[-1deg] max-w-[280px]">
-                <p className="font-serif text-[26px] md:text-[38px] font-semibold text-neutral-900">
+              <div className="
+                md:absolute
+                md:bottom-[10px] md:right-[18%]
+                rotate-[-1deg]
+                max-w-[200px] md:max-w-[280px]
+              ">
+                <p className="font-serif text-[24px] md:text-[38px] font-semibold text-neutral-900">
                   10+ YEARS
                 </p>
                 <p className="text-[11px] md:text-[13px] font-semibold text-neutral-600 uppercase leading-snug">
-                  Average years of building experience for &gt; 50% of our
-                  engineers
+                  Average years of building experience for &gt; 50% of our engineers
                 </p>
               </div>
+
             </div>
           </div>
           {/* 中间：实心卡片（不是窗口，背景纯色） */}
