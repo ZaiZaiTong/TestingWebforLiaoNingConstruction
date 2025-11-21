@@ -106,7 +106,7 @@ export default function Home() {
 
             <div className="text-center">
               <p className="font-serif text-3xl md:text-4xl text-[#8C0303] mb-2">
-                100+
+                20+
               </p>
               <p className="text-[13px] md:text-[14px] font-semibold uppercase tracking-wide text-neutral-700">
                 Completed Projects

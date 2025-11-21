@@ -14,10 +14,8 @@ export default function Renovation() {
 
   const slides = useMemo(
     () =>
-      Array.from({ length: 10 }).map((_, i) =>
-        asset(
-          `../services/major-works/slide-${String(i + 1).padStart(2, "0")}.jpg`
-        )
+      Array.from({ length: 2 }).map(
+        (_, i) => `/services/major-works/slide-${String(i + 1).padStart(2, "0")}.jpg`
       ),
     []
   );

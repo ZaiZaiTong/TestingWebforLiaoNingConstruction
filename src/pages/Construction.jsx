@@ -87,21 +87,7 @@ Our team works with architects and engineers to produce compliant, build-ready d
 We coordinate all consultants and trades, maintain strict supervision on-site, and deliver your home with predictable timelines, cost clarity and quality workmanship.`}
       />
 
-      <section className="pt-10 lg:pt-20">
-        <div className="container-xl">
-          <div className="relative overflow-hidden rounded-xl">
-            <div ref={trackRef} className="flex transition-transform duration-700 ease-out" style={{ transform: "translateX(0%)" }}>
-              {Array.from({ length: 10 }).map((_, i) => (
-                <div key={i} className="min-w-full" data-slide>
-                  <img src={`/services/construction/slide-${String(i+1).padStart(2, "0")}.jpg`} alt={`Slide ${i+1}`} className="w-full h-auto block" loading="lazy" />
-                </div>
-              ))}
-            </div>
-            <button onClick={() => jump(-1)} aria-label="Previous" className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white rounded-full px-3 py-2 shadow">‹</button>
-            <button onClick={() => jump(1)} aria-label="Next" className="absolute right-3 top-1/2 -translate-y-1/2 bg-white/70 hover:bg-white rounded-full px-3 py-2 shadow">›</button>
-          </div>
-        </div>
-      </section>
+
     </main>
   );
 }

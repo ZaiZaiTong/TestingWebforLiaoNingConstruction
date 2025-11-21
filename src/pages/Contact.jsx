@@ -84,7 +84,7 @@ export default function Contact() {
               <div>
                 <div className="font-semibold mb-1">WhatsApp Us</div>
                 <a
-                  href="https://wa.me/6599999999"
+                  href="https://wa.me/6591603279"
                   className="text-[#9B1113] hover:underline"
                   target="_blank"
                   rel="noreferrer"
@@ -204,8 +204,7 @@ export default function Contact() {
         </div>
 
         <p className="mt-4 text-xs text-neutral-500">
-          This form is connected to a backend endpoint (Google Apps Script) that
-          can write submissions into Google Sheets.
+          
         </p>
       </section>
 
@@ -260,7 +259,7 @@ export default function Contact() {
               />
             </div>
             <p className="mt-3 text-xs text-[#999999]">
-              Location pinned automatically from Google Maps.
+              
             </p>
           </div>
         </div>
