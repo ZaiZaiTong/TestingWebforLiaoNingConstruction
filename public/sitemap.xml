@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- HOME -->
+  <url>
+    <loc>https://www.liaoningconstruction.com/</loc>
+    <priority>1.0</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- SERVICES -->
+  <url>
+    <loc>https://www.liaoningconstruction.com/services/design-and-build</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.liaoningconstruction.com/services/major-works</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.liaoningconstruction.com/services/specialist-works</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.liaoningconstruction.com/services/materials-and-interior-solutions</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- PROPERTIES LIST PAGES -->
+  <url>
+    <loc>https://www.liaoningconstruction.com/properties/for-sale</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.liaoningconstruction.com/properties/under-construction</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.liaoningconstruction.com/properties/completed-projects</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- PROPERTY DETAIL PAGES -->
+  <url>
+    <loc>https://www.liaoningconstruction.com/properties/for-sale/65-farleigh-ave</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.liaoningconstruction.com/properties/completed/serangoon-gardens-1</loc>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <!-- ABOUT -->
+  <url>
+    <loc>https://www.liaoningconstruction.com/about/who-we-are</loc>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.liaoningconstruction.com/about/our-process</loc>
+    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://www.liaoningconstruction.com/about/become-a-business-partner</loc>
+    <priority>0.6</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <!-- CONTACT -->
+  <url>
+    <loc>https://www.liaoningconstruction.com/contact</loc>
+    <priority>0.8</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+</urlset>
