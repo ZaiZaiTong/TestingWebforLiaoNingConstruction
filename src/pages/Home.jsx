@@ -55,7 +55,7 @@ export default function Home() {
             </h1>
 
             <p className="max-w-xl text-sm md:text-[15px] leading-relaxed text-neutral-100 mb-8">
-              Liao Ning Construction designs and builds bespoke landed homes
+              Liao Ning Construction (also known as <strong>Liaoning Construction</strong>) designs and builds bespoke landed homes
               with structural integrity, thoughtful layouts and enduring
               craftsmanship — so families can live comfortably together under
               one roof.
