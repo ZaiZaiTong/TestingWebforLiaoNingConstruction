@@ -143,19 +143,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* 版权条 */}
-      <div className="text-white/90" style={{ backgroundColor: "#8C0303" }}>
-        <div className="container-xl py-4 flex flex-col md:flex-row items-center gap-3 md:gap-6 justify-between">
-          <p className="text-sm">© {new Date().getFullYear()} Liao Ning Group. All Rights Reserved.</p>
-          <ul className="flex items-center gap-4 text-sm">
-            <li><Link to="/privacy" className="hover:text-white">Privacy Policy</Link></li>
-            <li className="opacity-50">|</li>
-            <li><Link to="/terms" className="hover:text-white">Terms of Use</Link></li>
-            <li className="opacity-50">|</li>
-            <li><Link to="/sitemap" className="hover:text-white">Site Map</Link></li>
-          </ul>
-        </div>
-      </div>
     </footer>
   );
 }
