@@ -48,17 +48,17 @@ export default function Home() {
             </p>
 
             <h1 className="font-serif text-3xl md:text-5xl lg:text-[52px] leading-tight mb-5">
-              Warm, Crafted Homes
+              Liao Ning Construction – Warm, Crafted Landed Homes
               <span className="block text-[#8C0303]">
                 for Multi-Generational Living
               </span>
             </h1>
 
             <p className="max-w-xl text-sm md:text-[15px] leading-relaxed text-neutral-100 mb-8">
-              Liao Ning Construction (also known as <strong>Liaoning Construction</strong>) designs and builds bespoke landed homes
-              with structural integrity, thoughtful layouts and enduring
-              craftsmanship — so families can live comfortably together under
-              one roof.
+              Liao Ning Construction (also known as <strong>Liaoning Construction</strong>) is a Singapore-based construction company
+              that designs and builds bespoke landed homes with strong structural integrity,
+              thoughtful layouts and enduring craftsmanship — so families can live comfortably
+              together under one roof.
             </p>
 
             <div className="flex flex-wrap gap-4">
